@@ -1,3 +1,4 @@
+
 exports.index = function(req, res){
     res.send('api route from controller')
 }
@@ -7,5 +8,5 @@ exports.upload = function(req, res){
 }
 
 exports.results = function(req, res){
-    res.send('test')
+    res.render('results', {size: req.file.size})
 }
