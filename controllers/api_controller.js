@@ -7,5 +7,5 @@ exports.upload = function(req, res){
 }
 
 exports.results = function(req, res){
-    res.send('results route')
+    res.send('test')
 }

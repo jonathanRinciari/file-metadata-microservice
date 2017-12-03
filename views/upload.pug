@@ -4,5 +4,8 @@ block content
 
     h1 Select a file to upload and have analyzed
     
-    form
-        button click
+    form(action="/api/results", method='post' enctype="multipart/form-data")
+      input(type="file")
+      button(type="submit") Submit
+      
+        

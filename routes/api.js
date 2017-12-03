@@ -6,6 +6,6 @@ router.get('/', api_controller.index)
 
 router.get('/upload', api_controller.upload)
 
-router.get('/results', api_controller.results)
+router.post('/results', api_controller.results)
 
 module.exports = router;
