@@ -8,5 +8,5 @@ exports.upload = function(req, res){
 }
 
 exports.results = function(req, res){
-    res.render('results', {size: req.file.size})
+    res.render('results', {size: req.file.size, name: req.file.originalname})
 }
