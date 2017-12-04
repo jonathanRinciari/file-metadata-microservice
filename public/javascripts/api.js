@@ -6,7 +6,6 @@ $(document).ready(
         if($(this).val()){
           $('button').removeAttr('disabled')
         }
-        
     })
   }
 )
