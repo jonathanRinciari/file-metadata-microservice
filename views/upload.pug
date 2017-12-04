@@ -2,7 +2,7 @@ extends layout
 
 block content
   div(class="container")
-    h1 Select a file to be analyzed
+    h1 Select a File to be Analyzed
     
     form(action="/api/results", method='post' enctype="multipart/form-data")
       input(type="file", name="userFile" id="input")

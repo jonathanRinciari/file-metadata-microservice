@@ -1,6 +1,6 @@
 
 exports.index = function(req, res){
-    res.send('api route from controller')
+    res.render('apiIndex')
 }
 
 exports.upload = function(req, res){
