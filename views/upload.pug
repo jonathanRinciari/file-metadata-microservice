@@ -5,7 +5,7 @@ block content
     h1 Select a file to be analyzed
     
     form(action="/api/results", method='post' enctype="multipart/form-data")
-      input(type="file", name="userFile")
-      button(type="submit") Submit
+      input(type="file", name="userFile" id="input")
+      button(type="submit" disabled) Submit
       
         
